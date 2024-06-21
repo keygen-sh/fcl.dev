@@ -149,7 +149,7 @@ footer {
   }
 }
 
-a[href^='https://keygen.sh'] {
+a[href='https://keygen.sh'] {
   font-family: var(--kg-font-logo);
   font-weight: 500;
   color: var(--kg-color-fg);
