@@ -147,21 +147,21 @@ footer {
   span {
     color: var(--kg-color-secondary);
   }
+}
 
-  a {
-    font-family: var(--kg-font-logo);
-    font-weight: 500;
-    color: var(--kg-color-fg);
-    text-transform: lowercase;
-    text-decoration: none;
-    background-image: url(https://assets.keygen.sh/logos/logomark.svg);
-    background-position: center left;
-    background-repeat: no-repeat;
-    background-size: 0.875em 0.875em;
-    padding-left: 1.2em;
+a[href^='https://keygen.sh'] {
+  font-family: var(--kg-font-logo);
+  font-weight: 500;
+  color: var(--kg-color-fg);
+  text-transform: lowercase;
+  text-decoration: none;
+  background-image: url(https://assets.keygen.sh/logos/logomark.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: 0.875em 0.875em;
+  padding-left: 1.2em;
 
-    &:hover {
-      text-decoration: underline;
-    }
+  &:hover {
+    text-decoration: underline;
   }
 }
