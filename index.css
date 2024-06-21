@@ -6,9 +6,6 @@
   --kg-color-secondary: #ff0811;
   --kg-color-bg: #000811;
   --kg-color-fg: #fff;
-  --kg-break-lg: 80rem;
-  --kg-break-md: 60rem;
-  --kg-break-sm: 40rem;
 }
 
 ::selection {
@@ -23,8 +20,8 @@
 body {
   font-family: var(--kg-font-text);
   font-size: 14px;
-  color: var(--kg-color-primary);
-  background: var(--kg-color-bg);
+  color: var(--kg-color-bg);
+  background: var(--kg-color-primary);
   margin: 0;
   padding: 0;
 }
@@ -54,7 +51,7 @@ h1 {
   /* &::before {
     mix-blend-mode: difference;
     content: 'Functional Source License 1.1 + Elastic License 2.0 =';
-    font-family: ;
+    font-family: var(--kg-font-wide);
     font-style: italic;
     color: var(--kg-color-secondary);
     position: absolute;
@@ -122,16 +119,14 @@ main {
 
 section {
   scroll-snap-align: start;
-  flex: 1;
-  position: relative;
   color: var(--kg-color-bg);
   background: var(--kg-color-primary);
   height: 100vh;
 
   + section {
-    flex: 1 1 auto;
-    color: inherit;
-    background: inherit;
+    flex-grow: 1;
+    color: var(--kg-color-primary);
+    background: var(--kg-color-bg);
     overflow-y: scroll;
   }
 }
