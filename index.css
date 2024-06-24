@@ -114,6 +114,8 @@ a {
 
 pre,
 code {
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
   font-family: var(--kg-font-mono);
   color: var(--kg-color-black);
   background: var(--kg-color-primary);
