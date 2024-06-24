@@ -1,16 +1,17 @@
 :root {
-  --kg-font-text: 'Owners Text';
-  --kg-font-wide: 'Owners XXWide';
-  --kg-font-logo: 'Owners';
+  --kg-font-text: 'Owners Text', -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  --kg-font-wide: 'Owners XXWide', -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  --kg-font-logo: 'Owners', -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  --kg-font-mono: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
   --kg-color-primary: #00ff92;
   --kg-color-secondary: #ff0048;
-  --kg-color-bg: #000811;
-  --kg-color-fg: #fff;
+  --kg-color-black: #000811;
+  --kg-color-white: #fff;
 }
 
 ::selection {
   background: var(--kg-color-secondary);
-  color: var(--kg-color-fg);
+  color: var(--kg-color-white);
 }
 
 *, *::before, *::after {
@@ -22,7 +23,7 @@ body {
   -moz-osx-font-smoothing: auto;
   font-family: var(--kg-font-text);
   font-size: 14px;
-  color: var(--kg-color-bg);
+  color: var(--kg-color-black);
   background: var(--kg-color-primary);
   margin: 0;
   padding: 0;
@@ -47,7 +48,7 @@ h1 {
   font-weight: 500;
   font-size: 4em;
   line-height: 1;
-  color: var(--kg-color-bg);
+  color: var(--kg-color-black);
   margin-top: 0;
 
   /* &::before {
@@ -111,6 +112,15 @@ a {
   color: currentColor;
 }
 
+pre,
+code {
+  font-family: var(--kg-font-mono);
+  color: var(--kg-color-black);
+  background: var(--kg-color-primary);
+  padding: 0.15em 0.25em;
+  border-radius: 0.25em;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -121,14 +131,14 @@ main {
 
 section {
   scroll-snap-align: start;
-  color: var(--kg-color-bg);
+  color: var(--kg-color-black);
   background: var(--kg-color-primary);
   height: 100vh;
 
   + section {
     flex-grow: 1;
     color: var(--kg-color-primary);
-    background: var(--kg-color-bg);
+    background: var(--kg-color-black);
     overflow-y: scroll;
   }
 }
@@ -154,7 +164,7 @@ footer {
 a[href='https://keygen.sh'] {
   font-family: var(--kg-font-logo);
   font-weight: 500;
-  color: var(--kg-color-fg);
+  color: var(--kg-color-white);
   text-transform: lowercase;
   text-decoration: none;
   background-image: url(https://assets.keygen.sh/logos/logomark.svg);
@@ -170,7 +180,7 @@ a[href='https://keygen.sh'] {
 
 a[href='https://sentry.io'] {
   font-weight: 500;
-  color: var(--kg-color-fg);
+  color: var(--kg-color-white);
   text-transform: lowercase;
   text-decoration: none;
   background-image: url(logos/sentry.svg);
@@ -186,7 +196,7 @@ a[href='https://sentry.io'] {
 
 a[href='https://elastic.co'] {
   font-weight: 500;
-  color: var(--kg-color-fg);
+  color: var(--kg-color-white);
   text-transform: lowercase;
   text-decoration: none;
   background-image: url(logos/elastic.svg);
@@ -202,7 +212,7 @@ a[href='https://elastic.co'] {
 
 a[href='https://github.com/keygen-sh/fcl.dev'] {
   font-weight: 500;
-  color: var(--kg-color-fg);
+  color: var(--kg-color-white);
   text-transform: lowercase;
   text-decoration: none;
   background-image: url(logos/github.svg);
