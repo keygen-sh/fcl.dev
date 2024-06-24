@@ -161,69 +161,49 @@ footer {
   span {
     color: var(--kg-color-secondary);
   }
+
+  a[href='https://keygen.sh'] {
+    font-family: var(--kg-font-logo);
+    font-weight: 500;
+    color: var(--kg-color-white);
+    text-transform: lowercase;
+    text-decoration: none;
+    padding-left: 1.15em;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 a[href='https://keygen.sh'] {
-  font-family: var(--kg-font-logo);
-  font-weight: 500;
-  color: var(--kg-color-white);
-  text-transform: lowercase;
-  text-decoration: none;
   background-image: url(https://assets.keygen.sh/logos/logomark.svg);
   background-position: center left;
   background-repeat: no-repeat;
   background-size: 0.875em 0.875em;
-  padding-left: 1.15em;
-
-  &:hover {
-    text-decoration: underline;
-  }
+  padding-left: 1.1em;
 }
 
 a[href='https://sentry.io'] {
-  font-weight: 500;
-  color: var(--kg-color-white);
-  text-transform: lowercase;
-  text-decoration: none;
   background-image: url(logos/sentry.svg);
   background-position: center left;
   background-repeat: no-repeat;
   background-size: 0.875em 0.875em;
   padding-left: 1.1em;
-
-  &:hover {
-    text-decoration: underline;
-  }
 }
 
 a[href='https://elastic.co'] {
-  font-weight: 500;
-  color: var(--kg-color-white);
-  text-transform: lowercase;
-  text-decoration: none;
   background-image: url(logos/elastic.svg);
   background-position: center left;
   background-repeat: no-repeat;
   background-size: 0.875em 0.875em;
   padding-left: 1em;
-
-  &:hover {
-    text-decoration: underline;
-  }
 }
 
 a[href='https://github.com/keygen-sh/fcl.dev'] {
-  font-weight: 500;
-  color: var(--kg-color-white);
-  text-transform: lowercase;
-  text-decoration: none;
   background-image: url(logos/github.svg);
   background-position: center left;
   background-repeat: no-repeat;
   background-size: 0.875em 0.875em;
-  padding-left: 1.1em;
-
-  &:hover {
-    text-decoration: underline;
-  }
+  padding-left: 1em;
 }
