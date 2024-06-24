@@ -18,6 +18,8 @@
 }
 
 body {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
   font-family: var(--kg-font-text);
   font-size: 14px;
   color: var(--kg-color-bg);
