@@ -165,3 +165,35 @@ a[href='https://keygen.sh'] {
     text-decoration: underline;
   }
 }
+
+a[href='https://sentry.io'] {
+  font-weight: 500;
+  color: var(--kg-color-fg);
+  text-transform: lowercase;
+  text-decoration: none;
+  background-image: url(logos/sentry.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: 0.875em 0.875em;
+  padding-left: 1.1em;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+a[href='https://elastic.co'] {
+  font-weight: 500;
+  color: var(--kg-color-fg);
+  text-transform: lowercase;
+  text-decoration: none;
+  background-image: url(logos/elastic.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: 0.875em 0.875em;
+  padding-left: 1em;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
