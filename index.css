@@ -199,3 +199,19 @@ a[href='https://elastic.co'] {
     text-decoration: underline;
   }
 }
+
+/* a[href='https://github.com/keygen-sh/fcl.dev'] {
+  font-weight: 500;
+  color: var(--kg-color-fg);
+  text-transform: lowercase;
+  text-decoration: none;
+  background-image: url(logos/github.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: 0.875em 0.875em;
+  padding-left: 1em;
+
+  &:hover {
+    text-decoration: underline;
+  }
+} */
