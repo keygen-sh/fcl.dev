@@ -6,6 +6,7 @@
   --kg-color-primary: #00ff92;
   --kg-color-secondary: #ff0048;
   --kg-color-black: #000811;
+  --kg-color-gray: #283544;
   --kg-color-white: #fff;
 }
 
@@ -155,8 +156,12 @@ aside {
 
 footer {
   color: var(--kg-color-primary);
-  margin-top: 2rem;
-  padding: 0 2rem 2rem;
+  padding: 0 2rem;
+  margin: 2rem 0;
+
+  small {
+    color: var(--kg-color-gray);
+  }
 
   span {
     color: var(--kg-color-secondary);
