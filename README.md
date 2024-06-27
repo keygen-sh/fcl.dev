@@ -1,6 +1,6 @@
 # Fair Core License
 
-This repo houses the source code for https://fcl.dev, the homepage for the [Fair Source License](https://fcl.dev).
+This repo houses the source code for https://fcl.dev, the homepage for the [Fair Core License](https://fcl.dev).
 If you have questions or want to add your company or project logo, [open an issue](https://github.com/keygen-sh/fcl.dev/issues)
 or dive in [with a PR](https://github.com/keygen-sh/fcl.dev/pulls).
 
