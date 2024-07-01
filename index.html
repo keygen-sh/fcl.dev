@@ -127,6 +127,24 @@
             For example, you could clone a Git repository, run <code>git checkout `git rev-list -n 1 --before='2 years ago' master`</code> and, given the <code>LICENSE</code> file is <abbr title='Fair Core License'>FCL</abbr>, use that version under the Open Source terms of the change license.
           </p>
           <h4>
+            How is the <abbr title='Fair Core License'>FCL</abbr> different from Open Core?
+          </h4>
+          <p>
+            The <abbr title='Fair Core License'>FCL</abbr> and Open Core both restrict access to certain parts of a project's codebase, particularly commercial features. In Open Core, these features are often closed source, or separately licensed e.g. under an <code>ee/</code> directory.
+          </p>
+          <p>
+            The <abbr title='Fair Core License'>FCL</abbr>, however, uses <em>license keys</em> to restrict commercial features. The restriction method differs, but the effect is the same. The <abbr title='Fair Core License'>FCL</abbr> provides a way to license a project under the same terms, under a single codebase.
+          </p>
+          <p>
+            For projects moving from closed source to Fair Source, the <abbr title='Fair Core License'>FCL</abbr> is beneficial because it doesn't require project reorganization. In Open Core, commercial features need to be extracted and separately licensed or made closed source, causing potential code churn and risk. In contrast, the <abbr title='Fair Core License'>FCL</abbr> allows a project's commercial features to simply be wrapped in a license key check.
+          </p>
+          <p>
+            Another advantage of the <abbr title='Fair Core License'>FCL</abbr> is that commercial features will eventually become Open Source. In contrast, with an Open Core project, its commercial features will never become Open Source, unless a one-off commercial license is used which eventually contributes to Open Source.
+          </p>
+          <p>
+            Finally, the <abbr title='Fair Core License'>FCL</abbr> is a non-compete license, unlike Open Core, which typically doesn't restrict on endeavor.
+          </p>
+          <h4>
             Who's involved in the <abbr title='Fair Core License'>FCL</abbr>?
           </h4>
           <p>
