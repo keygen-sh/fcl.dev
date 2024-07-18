@@ -142,6 +142,7 @@ section {
   color: var(--kg-color-black);
   background: var(--kg-color-primary);
   height: 100vh;
+  overflow: hidden;
 
   + section {
     flex-grow: 1;
