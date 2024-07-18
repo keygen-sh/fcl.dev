@@ -52,6 +52,10 @@ h1 {
   color: var(--kg-color-black);
   margin-top: 0;
 
+  @media (width > 40rem) {
+    font-size: 4em;
+  }
+
   /* &::before {
     mix-blend-mode: difference;
     content: 'Functional Source License 1.1 + Elastic License 2.0 =';
