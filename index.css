@@ -56,18 +56,6 @@ h1 {
     font-size: 4em;
   }
 
-  /* &::before {
-    mix-blend-mode: difference;
-    content: 'Functional Source License 1.1 + Elastic License 2.0 =';
-    font-family: var(--kg-font-wide);
-    font-style: italic;
-    color: var(--kg-color-secondary);
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    width: calc(100% + 2rem);
-  } */
-
   span {
     display: block;
     white-space: nowrap;
