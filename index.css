@@ -126,6 +126,7 @@ main {
 }
 
 section {
+  position: relative;
   scroll-snap-align: start;
   color: var(--kg-color-black);
   background: var(--kg-color-primary);
@@ -142,6 +143,14 @@ section {
 
 header {
   padding: calc(50vh - 5rem) 2rem 0;
+
+  img {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    width: 32px;
+    height: 32px;
+  }
 }
 
 aside {
