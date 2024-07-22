@@ -90,6 +90,9 @@ IN NO EVENT WILL WE HAVE ANY LIABILITY TO YOU ARISING OUT OF OR RELATED TO THE
 SOFTWARE, INCLUDING INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES,
 EVEN IF WE HAVE BEEN INFORMED OF THEIR POSSIBILITY IN ADVANCE.
 
+In the event the provision of this Disclaimer section is unenforceable under
+applicable law, the licenses granted herein are void.
+
 ### Trademarks
 
 Except for displaying the License Details and identifying us as the origin of
