@@ -142,7 +142,7 @@ section {
     /* fix double scrollbars on mobile */
     @media (width <= 65rem) {
       height: unset;
-      min-width: 100vh;
+      min-height: 100vh;
     }
   }
 }
