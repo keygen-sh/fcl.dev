@@ -138,6 +138,12 @@ section {
     color: var(--kg-color-primary);
     background: var(--kg-color-black);
     overflow-y: scroll;
+
+    /* fix double scrollbars on mobile */
+    @media (width <= 65rem) {
+      height: unset;
+      min-width: 100vh;
+    }
   }
 }
 
