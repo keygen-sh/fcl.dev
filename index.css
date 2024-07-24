@@ -123,6 +123,9 @@ main {
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   height: 100vh;
+
+  /* idk why this is needed but scroll snap breaks momentum scrolling on iOS */
+  -webkit-overflow-scrolling: touch;
 }
 
 section {
@@ -138,6 +141,9 @@ section {
     color: var(--kg-color-primary);
     background: var(--kg-color-black);
     overflow-y: scroll;
+
+    /* idk why this is needed but scroll snap breaks momentum scrolling on iOS */
+    -webkit-overflow-scrolling: touch;
 
     /* fix double scrollbars on mobile */
     @media (width <= 65rem) {
