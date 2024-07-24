@@ -126,6 +126,9 @@ main {
 
   /* idk why this is needed but scroll snap breaks momentum scrolling on iOS */
   -webkit-overflow-scrolling: touch;
+
+  /* hide scrollbars */
+  scrollbar-width: none;
 }
 
 section {
