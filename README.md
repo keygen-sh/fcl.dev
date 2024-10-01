@@ -17,7 +17,7 @@ with commercial features.
 
 The full license texts can be found below:
 
-- [FCL-1.0-Apache-2.0](https://github.com/keygen-sh/fcl.dev/tree/master/FCL-1.0-Apache-2.0.md) ([raw](https://github.com/keygen-sh/fcl.dev/raw/master/FCL-1.0-Apache-2.0.md))
+- [FCL-1.0-ALv2](https://github.com/keygen-sh/fcl.dev/tree/master/FCL-1.0-ALv2.md) ([raw](https://github.com/keygen-sh/fcl.dev/raw/master/FCL-1.0-ALv2.md))
 - [FCL-1.0-MIT](https://github.com/keygen-sh/fcl.dev/tree/master/FCL-1.0-MIT.md) ([raw](https://github.com/keygen-sh/fcl.dev/raw/master/FCL-1.0-MIT.md))
 
 More info can be found at https://fcl.dev.
